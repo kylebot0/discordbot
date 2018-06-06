@@ -1,14 +1,29 @@
 {
-  "name": "bot",
+  "name": "discordbot",
   "version": "1.0.0",
   "description": "Standard Issue discord bot",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kyle",
+  "author": "Me",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2"
-  }
+    "bufferutil": "^3.0.5",
+    "discord-eco": "0.0.10",
+    "discord.js": "^11.3.2",
+    "git": "^0.1.5",
+    "node.js": "0.0.0",
+    "opusscript": "0.0.6",
+    "quick.db": "^6.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylebot0/discordbot02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kylebot0/discordbot02/issues"
+  },
+  "homepage": "https://github.com/kylebot0/discordbot02#readme"
 }
